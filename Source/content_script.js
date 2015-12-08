@@ -30,14 +30,12 @@ function walk(node)
 function handleText(textNode) 
 {
 	var v = textNode.nodeValue;
-
-	v = v.replace(/\bTrump\b/g, "Literally Hitler");
 	v = v.replace(/\bDonald Trump\b/g, "Literally Hitler");
-	v = v.replace(/\btrump\b/g, "literally hitler");
 	v = v.replace(/\bdonald trump\b/g, "literally hitler");
-	v = v.replace(/\bTRUMP\b/g, "LITERALLY HITLER");
 	v = v.replace(/\bDONALD TRUMP\b/g, "LITERALLY HITLER");
-
+	v = v.replace(/\bTrump\b/g, "Literally Hitler");
+	v = v.replace(/\btrump\b/g, "literally hitler");
+	v = v.replace(/\bTRUMP\b/g, "LITERALLY HITLER");
 
 	
 	textNode.nodeValue = v;
