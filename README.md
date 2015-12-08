@@ -1,4 +1,4 @@
-trump-to-literallyhiter
+trump-to-literallyhitler
 
 based on panicsteve's famous cloud-to-butt extension.
 
